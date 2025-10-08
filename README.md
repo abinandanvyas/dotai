@@ -1,5 +1,16 @@
-A smart AI-powered chatbot built using Flask (Python) and HTML/CSS, designed to assist users by answering queries from company documents
-TO run the project:
-1. run the app file  ---python app.py
-2. then run server file == python server.py
-THANKS 
+This project is a Flask-based chatbot that helps users interact with CapillaryTech documentation.
+It first scrapes the official documentation using app.py (BeautifulSoup + Requests) and stores it as JSON.
+Then, server.py loads that data to power an AI-like chatbot that answers technical queries with relevant details, bullet summaries, and source links.
+
+Features:
+
+Python web scraping
+
+Keyword-based search & smart responses
+
+Interactive chat API via Flask
+
+Run:
+
+python app.py   # Scrape docs  
+python server.py  # Start chatbot server
