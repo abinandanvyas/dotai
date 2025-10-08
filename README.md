@@ -12,5 +12,5 @@ Interactive chat API via Flask
 
 Run:
 
-python app.py   # Scrape docs  
+python app.py   # Scrape docs  it take 3 min to scrape then run the server file
 python server.py  # Start chatbot server
